@@ -5,14 +5,14 @@
 ### 1.  planificación del proyecto (Fase 1) 🗓️
 
 * **Define Scope & Requirements:**
-  * [ ] Finalize **Product Attributes** for all types.
-  * [ ] Detail **Supplier** information required (ID, Name, Contact).
-  * [ ] Define **Low Stock Threshold** (e.g., quantity **$< 10$**).
-  * [ ] Define **Expiry Alert Window** (e.g., within 30 days).
+  * [x] Finalize **Product Attributes** for all types.
+  * [x] Detail **Supplier** information required (ID, Name, Contact).
+  * [x] Define **Low Stock Threshold** (e.g., quantity **$< 10$**).
+  * [x] Define **Expiry Alert Window** (e.g., within 7 days).
 * **Architectural Planning:**
-  * [ ] Sketch the basic **Inheritance structure** (Base `Product` **$\rightarrow$** Derived `ElectronicProduct`, `GroceryProduct`).
-  * [ ] Plan the `Inventory` class's internal structure (e.g., using a `List<Product>` or `Dictionary<int, Product>`).
-  * [ ] Draft the  **Requirements Specification Document** .
+  * [x] Sketch the basic **Inheritance structure** (Base `Product` **$\rightarrow$** Derived `ElectronicProduct`, `GroceryProduct`).
+  * [x] Plan the `Inventory` class's internal structure (e.g., using a `List<Product>` or `Dictionary<int, Product>`).
+  * [x] Draft the  **Requirements Specification Document** .
 
 ---
 
@@ -31,46 +31,46 @@
 ### 3. Code Setup & Architecture (Fase 3) 🏗️
 
 * **Project Setup:**
-  * [ ] Create the C# **Console Application** project.
+  * [x] Create the C# **WinForms Application** project.
 * **Base Classes:**
-  * [ ] Code the **`Supplier`** class (Properties, Constructor).
-  * [ ] Code the **`Product`** base class (Properties: ID, Name, Price, Quantity).
-  * [ ] Implement **Encapsulation** (private fields, public properties) in base classes.
+  * [x] Code the **`Supplier`** class (Properties, Constructor).
+  * [x] Code the **`Product`** base class (Properties: ID, Name, Price, Quantity).
+  * [x] Implement **Encapsulation** (private fields, public properties) in base classes.
 * **Derived Classes (Inheritance):**
-  * [ ] Code **`ElectronicProduct`** (inherits `Product`, adds `WarrantyMonths`).
-  * [ ] Code **`GroceryProduct`** (inherits `Product`, adds `ExpiryDate`).
+  * [x] Code **`ElectronicProduct`** (inherits `Product`, adds `WarrantyMonths`).
+  * [x] Code **`GroceryProduct`** (inherits `Product`, adds `ExpiryDate`).
 * **Core Inventory Class:**
-  * [ ] Implement the **`Inventory`** class (stores the list of products).
+  * [x] Implement the **`Inventory`** class (stores the list of products).
 * **Helper Functions:**
-  * [ ] Code a reusable function for **safe numeric input** and basic validation.
-  * [ ] Code a function for **formatted product output** (displaying product details neatly).
+  * [x] Code a reusable function for **safe numeric input** and basic validation.
+  * [x] Code a function for **formatted product output** (displaying product details neatly).
 
 ---
 
 ### 4. Core Functionality Development (Fase 4) ⚙️
 
 * **CRUD Operations:**
-  * [ ] Implement **`AddProduct()`** (handles category selection and unique ID generation).
-  * [ ] Implement **`SearchProduct()`** by ID.
-  * [ ] Implement  **`UpdateQuantity()`** .
-  * [ ] Implement  **`DeleteProduct()`** .
-  * [ ] Implement **`DisplayProducts()`** (shows all products and their categories).
+  * [x] Implement **`AddProduct()`** (handles category selection and unique ID generation).
+  * [x] Implement **`SearchProduct()`** by ID.
+  * [x] Implement  **`UpdateQuantity()`** .
+  * [x] Implement  **`DeleteProduct()`** .
+  * [x] Implement **`DisplayProducts()`** (shows all products and their categories).
 * **Alerts & Validation:**
-  * [ ] Implement **`CheckLowStock()`** logic.
-  * [ ] Implement **`CheckExpiry()`** logic for grocery items.
-  * [ ] Integrate **Input Validation** into all user interaction points.
+  * [x] Implement **`CheckLowStock()`** logic.
+  * [x] Implement **`CheckExpiry()`** logic for grocery items.
+  * [x] Integrate **Input Validation** into all user interaction points.
 
 ---
 
 ### 5. Menu Development & Integration (Fase 5) 🖥️
 
 * **Menu Interface:**
-  * [ ] Develop the **Main Menu loop** and `switch-case` structure.
-  * [ ] Create the **Product Addition Sub-menu** (to select Electronic or Grocery).
+  * [x] Develop the **Main Menu loop** and `switch-case` structure.
+  * [x] Create the **Product Addition Sub-menu** (to select Electronic or Grocery).
 * **Integration:**
-  * [ ] **Connect** all `Inventory` methods to the corresponding menu options.
-  * [ ] Implement the **Navigation Logic** (`Press Enter to return to Main Menu...`).
-  * [ ] Ensure **Polymorphism** is used when displaying product details (e.g., calling a virtual `DisplayDetails()` method).
+  * [x] **Connect** all `Inventory` methods to the corresponding menu options.
+  * [x] Implement the **Navigation Logic** (`Press Enter to return to Main Menu...`).
+  * [x] Ensure **Polymorphism** is used when displaying product details (e.g., calling a virtual `DisplayDetails()` method).
 
 ---
 
