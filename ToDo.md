@@ -91,11 +91,11 @@
 ### 7. Documentation & Report Creation (Fase 7) 📄
 
 * **Report Sections:**
-  * [ ] Finalize the  **Project Proposal** .
-  * [ ] Document the **System Design** (UML explanation, class relationships).
-  * [ ] Write the **User Manual** (how to run the program and use all features).
-  * [ ] Add **Final Output Screenshots** to the report.
-  * [ ] **Format** the complete document according to academic standards.
+  * [x] Finalize the  **Project Proposal** .
+  * [x] Document the **System Design** (UML explanation, class relationships).
+  * [x] Write the **User Manual** (how to run the program and use all features).
+  * [x] Add **Final Output Screenshots** to the report.
+  * [x] **Format** the complete document according to academic standards.
 
 ---
 
