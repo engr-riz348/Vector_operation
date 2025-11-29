@@ -44,7 +44,7 @@ namespace InventoryManagementSystem.UI.Models
             }
         }
 
-        public Product SearchProduct(int productId)
+        public Product? SearchProduct(int productId)
         {
             return products.FirstOrDefault(p => p.ProductID == productId);
         }
